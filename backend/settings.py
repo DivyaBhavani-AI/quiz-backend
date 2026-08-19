@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 
-ALLOWED_HOSTS = ['localhost' , '127.0.0.1']
+ALLOWED_HOSTS = ['quiz-backend-lwa7.onrender.com', '.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
